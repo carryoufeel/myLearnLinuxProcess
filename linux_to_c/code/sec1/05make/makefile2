@@ -1,0 +1,12 @@
+OBJ = app
+SRC +=main.c
+SRC +=add.c
+SRC +=mul.c
+CC= gcc 
+
+
+$(OBJ):$(SRC)
+	$(CC) $(SRC) -o $(OBJ)
+
+clear:
+	rm $(OBJ)

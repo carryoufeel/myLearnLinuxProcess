@@ -1,0 +1,5 @@
+
+
+
+app:main.c add.c mul.c 
+	gcc $^ -o $@
