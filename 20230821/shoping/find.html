@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+<style>
+<style>
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 27px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: hsl(0, 93%, 56%);
+  color: white;
+  font-size: 8px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: hsl(10, 100%, 54%);
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body background="3.jpg" 
+               style="background-repeat:no-repeat
+               background-attachment:fixed;
+               background-size:cover; "
+			   >
+<h2 align="center">搜索</h2>
+<form class="example" action='find'>
+  <input type="text" placeholder="请输入需要查询的商品" name="search">
+  <button type="submit"><i class="fa fa -search"><h1>搜索</h1></i></button>
+</form>
+</body>
+</html>

@@ -1,0 +1,1 @@
+http://api.k780.com/?app=weather.realtime&cityNm=西安&ag=today,futureDay,lifeIndex,futureHour&appkey=69832&sign=a99d50a35007641b8e3fe21ea0c6acb3&format=json
